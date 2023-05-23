@@ -1,0 +1,122 @@
+*{
+ padding: 0;
+ margin: 0;
+}
+.header_nav_ul{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+#header{
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+}
+#main{
+    width: 100%;
+}
+#body{
+    background-color: black;
+}
+.nav_logo{
+    height: 100%;
+    width: 100%;
+}
+.nav_div_logo{
+    position: absolute;
+    height: 40px;
+    width: 200px;
+}
+.body_img{
+    opacity: 0.7;
+    height: 700px;
+    width: 100%;
+}
+h5{
+    color: black;
+}
+p{
+    font-size: 30px;
+}
+.carousel-inner{
+    height: 600px;
+}
+.img_1{
+    width: 300px;
+    height: 600px;
+}
+.img_2{
+    width: 300px;
+    height: 600px;
+}
+.img_3{
+    width: 300px;
+    height: 600px;
+}
+.nav-link{
+    color: rgb(255, 255, 255);
+}
+.main_div_1{
+    height: 350px;
+    background-image: url(../img/bici-mtb.jpg);
+}
+.main_div_2{
+    background-image:url(../img/bici-ruta-2.jpg);
+}
+.main_div_3{
+    height: 350px;
+    background-image: url(../img/bmx.jpg);
+}
+.main_div_4{
+    background-image: url(../img/indu.jpg);
+}
+.main_div_5{
+    background-image: url(../img/accesorios.jpg);
+}
+.nav_responsive{
+    display: none;
+}
+@media (max-width: 614px) {
+    .nav_logo{
+        width: 150px;
+    }
+}
+@media (max-width: 575px) {
+    .header_nav_ul{
+        display: none;
+    }
+    .nav_responsive{
+        display: block;
+    }
+}
+@media (min-width: 575px){
+    .div_responsive{
+        display: none;
+    }
+}
+@media (max-width: 575px ){
+    .nav_div_logo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+.ul_nav_responsive{
+    position: relative;
+    top: 20px;
+}
+.nav-link:hover {
+    color: red;
+    transition: .9s;
+}
+.active-nav:focus{
+    color: red;
+}
+.carousel-inner{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.carousel h2{
+    color: rgb(219, 216, 46);
+}
