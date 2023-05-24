@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Space+Grotesk&display=swap" rel="stylesheet">
     <title>Bimax Bike</title>
-    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 
@@ -22,7 +22,7 @@
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
-    <div class="carousel-inner" data-bs-interval="1000">
+    <div class="carousel-inner" data-bs-interval="10000">
       <div class="carousel-item active">
         <img src="./img/fondo-inicio.jpg" class="d-block w-100 img_1" alt="...">
         <div class="carousel-caption d-none d-md-block">
@@ -35,7 +35,7 @@
           <h2>CONSTANCIA Y DISCIPLINA</h2>
         </div>
       </div>
-      <div class="carousel-item" >
+      <div class="carousel-item" data-bs-interval="10000">
         <img src="./img/imagen-inicio-4.jpg" class="d-block w-100 carrusel_img img_3" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h2>COMO ESTILO DE VIDA</h2>
@@ -118,34 +118,58 @@
     </header>
     
     <main id="main">
-        <article class="main_article">
-          <div class="container text-center main_article_div">
-            <div class="row">
-              <div class="col main_div_1">
-                <h2>MTB</h2>
-              </div>
-              <div class="col main_div_2">
-                <h2>RUTA</h2>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col main_div_3">
-                <h2>BMX</h2>
-              </div>
-              <div class="col main_div_4">
-                <h2>INDUMENTARIA</h2>
-              </div>
-              <div class="col main_div_5">
-                <h2>ACCESORIOS</h2>
-              </div>
-            </div>
+        <section class="main_article">
+          <div class="main__content">
+            <article class="main__card main__card-1 ">
+              <a href="#"><h2 class="subtitle">MTB</h2></a>
+            </article>
+            <article class="main__card main__card-2">
+              <a href="#"><h2 class="subtitle">RUTA</h2></a>
+            </article>
+            <article class="main__card main__card-3">
+              <a href="#"><h2 class="subtitle">BMX</h2></a>
+            </article>
+            <article class="main__card main__card-4">
+              <a href="#"><h2 class="subtitle">INDUMENTARIA</h2></a>
+            </article>
+            <article class="main__card main__card-5">
+              <a href="#"><h2 class="subtitle">ACCESORIOS</h2></a>
+            </article>
           </div>
-        </article>
+        </section>
     </main>
     
-    <footer id="footer">
+    <!-- Comienza footer -->
 
-    </footer>
+    <div class="container ft-contact">
+      <footer class="d-flex flex-wrap justify-content-center align-items-center py-3 mt-4 border-top">
+          <div class="copy col-md-6 col-sm-8 d-flex align-items-center">
+              <span class="text-muted">&copy; 2023 Todos los derechos reservados</span>
+          </div>
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+              <li class="ms-2">
+                  <a href="#">
+                      <img src="./img/instagram.png" alt="instagram" class="footer__icons">
+                  </a>
+              </li>
+              <li class="ms-3">
+                  <a href="#">
+                      <img src="./img/facebook.png" alt="Facebook" class="footer__icons">
+                  </a>
+              </li>
+              <li class="ms-3">
+                  <a href="#">
+                      <img src="./img/whatsapp.png" alt="Whatsapp" class="footer__icons">
+                  </a>
+              </li>
+              <li class="ms-3">
+                  <a href="#">
+                      <img src="./media/icons/tiktok.svg" alt="Tiktok" class="footer__icons">
+                  </a>
+              </li>
+          </ul>
+      </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
