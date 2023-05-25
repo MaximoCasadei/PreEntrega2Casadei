@@ -15,7 +15,7 @@
 
 
 <body id="body">
-
+    
   <header id="header">
         <nav class="header_nav">
           <div class="nav_div_logo">
@@ -27,9 +27,9 @@
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle active-nav" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Indumentaria</a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../pages/hombre.html">Hombre</a></li>
-                    <li><a class="dropdown-item" href="../pages/dama.html">Dama</a></li>
+                  <ul class="dropdown-menu active">
+                    <li><a class="dropdown-item" href="./hombre.html">Hombre</a></li>
+                    <li><a class="dropdown-item" href="./dama.html">Dama</a></li>
                     <li><a class="dropdown-item" href="#">Niños</a></li>
                     <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item" href="#">Proximamente</a></li>
@@ -39,24 +39,24 @@
                   <a class="nav-link" href="./productos.html">Productos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="./bikefitting.html">Bikeffiting</a>
+                  <a class="nav-link" href="./bikefitting.html">Bikeffiting</a>
                 </li>
             </ul>
         </nav>
 
-<!-- comienza nav responsivo -->
+ <!-- comienza nav responsivo -->
 
         <div class="collapse div_responsive" id="navbarToggleExternalContent">
           <div class="bg-dark p-4">
             <ul class="nav nav-tabs ul_nav_responsive">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Indumentaria</a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="../pages/hombre.html">Hombre</a></li>
-                  <li><a class="dropdown-item" href="../pages/dama.html">Dama</a></li>
+                  <li><a class="dropdown-item" href="./hombre.html">Hombre</a></li>
+                  <li><a class="dropdown-item" href="./dama.html">Dama</a></li>
                   <li><a class="dropdown-item" href="#">Niños</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="#">Proximamente</a></li>
@@ -81,59 +81,44 @@
           </div>
         </nav>
     </header>
-    
+   
     <!-- comienza seccion importante -->
-    
+   
     <main id="main">
-          <section class="main__seccion--1">
-            <h2 class="title-white pt-5">¿QUÉ ES BIKEFITTING?</h2>
-                  <div class="main__section__conteiner">
-                    <div class="text-white pb-5">
-                       <p>Nuestros servicios de tallas y accesorios pueden ayudarlo a comprar la bicicleta del tamaño correcto, configurar los tacos de sus zapatos con precisión, recomendar la mejor silla para sus necesidades, o brinde orientación sobre la posición óptima de ciclismo y la configuración de la bicicleta para su estilo de conducción. Los ajustes de bicicleta más avanzados también pueden incluir el análisis de su posición de ciclismo en movimiento y su carrera de pedaleo para establecer cómo puede optimizar su posición para una mayor potencia de salida o un mayor nivel de confort en la bicicleta. </p>
-                    </div>
-                    <div>
-                      <img src="../img/bikefitting.jpg" alt="" class="main__img__bike">
-                    </div>
-                  </div>
-          </section>
-          
-          <section class="main__section__map">
-            <article>
-              <span>
-                <h2>Dentro del país hay pocos, nosotros tenemos uno! <br> Firmat, Sante Fe, Argentina</h2>
-              </span>
-            </article>
-
-            <article class="main__article__map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d5792758.907022599!2d-65.19317437659501!3d-32.53503846040418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sbikefittibg!5e0!3m2!1ses!2sar!4v1684965078425!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </article>
-          </section>
-
-          <section class="main__content__form">
-            <div class="main__section__form">
-              <form action="" method="post" class="section__form">
-                <ul>
-                  <li class="form__li">
-                    <label for="name">Nombre de tu negocio:</label>
-                    <input type="text" class="input__form">
-                  </li>
-
-                  <li class="form__li">
-                    <label for="text">Ciudad:</label>
-                    <input type="text" class="input__form">
-                  </li>
-
-                  <li class="form__li">
-                    <label for="mail">mail:</label>
-                    <input type="text" class="input__form">
-                  </li>
-                  <span class="boton__enviar">
-                    <input type="submit" placeholder="Enviar">
-                  </span>
-                </ul>
-              </form>
+        <section class="main__section">
+            <div class="main__section__card">
+              <img src="../img/indu-hombre-1.jpg" alt="" class="main__section__card__img">
+              <input type="button" value="COMPRAR"  class="input__productos">
             </div>
-          </section>
+            <div class="main__section__card">
+              <img src="../img/indu-hombre-1.jpg" alt="" class="main__section__card__img">
+              <input type="button" value="COMPRAR" class="input__productos">
+            </div>
+            <div class="main__section__card">
+              <img src="../img/indu-hombre-1.jpg" alt="" class="main__section__card__img">
+              <input type="button" value="COMPRAR" class="input__productos">
+            </div>
+            <div class="main__section__card">
+              <img src="../img/indu-hombre-1.jpg" alt="" class="main__section__card__img">
+              <input type="button" value="COMPRAR" class="input__productos">
+            </div>
+            <div class="main__section__card">
+              <img src="../img/indu-hombre-2.jpg" alt="" class="main__section__card__img">
+              <input type="button" value="COMPRAR" class="input__productos">
+            </div>
+            <div class="main__section__card">
+              <img src="../img/indu-hombre-2.jpg" alt="" class="main__section__card__img">
+              <input type="button" value="COMPRAR" class="input__productos">
+            </div>
+            <div class="main__section__card">
+              <img src="../img/indu-hombre-2.jpg" alt="" class="main__section__card__img">
+              <input type="button" value="COMPRAR" class="input__productos">
+            </div>
+            <div class="main__section__card">
+              <img src="../img/indu-hombre-2.jpg" alt="" class="main__section__card__img">
+              <input type="button" value="COMPRAR" class="input__productos">
+            </div>
+        </section>
     </main>
     
     <!-- Comienza footer -->

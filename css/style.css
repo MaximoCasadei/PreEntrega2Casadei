@@ -210,7 +210,9 @@ a{
     background-color: #fff;
     margin: 20px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 .main__section__card__img{
     height: 180px;
@@ -223,4 +225,82 @@ a{
 .nav-tabs{
     --bs-nav-tabs-border-color: none;
     -bs-nav-tabs-link-active-border-color: none ;
+}
+.main__img__bike{
+    width: 500px;
+    height: 400px;
+}
+#main p{
+    font-size: 20px;
+}
+.main__article__map{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main section span h2{
+    text-align: center;
+    background-color: #4864b16c;
+    color: #fff;
+}
+.main__section__conteiner{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 20px;
+}
+#main section h2{
+    text-align: center;
+}
+@media screen and (max-width: 830px) {
+    .main__section__conteiner{
+        flex-direction: column;
+        align-content: space-around;
+    }
+    .main__img__bike{
+        width:500px ;
+        height:400px ;
+    }
+}
+@media screen and (max-width: 550px) {
+    .main__img__bike{
+        width:300px ;
+        height:200px ;
+    }
+}
+.input__productos{
+    background-color: #35ee10;
+    border-style: none;
+    padding: 5px;
+    border-radius: 7px;
+}
+.main__section__form{
+    width: 400px;
+    height: 300px;
+    border: solid #fff 1px;
+    margin: 20px;
+    background-image: url(../img/fondo\ form.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section__form{
+    backdrop-filter: blur(10px);
+    
+}
+.form__li{
+    display: flex;
+    justify-content: space-between;
+}
+.boton__enviar{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.main__content__form{
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
